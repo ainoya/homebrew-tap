@@ -3,7 +3,7 @@ cask "atlassian-cli" do
   name "atlassian-cli"
   desc "Atlassian CLI tool"
   homepage "https://github.com/ainoya/atlassian-cli"
-  version "0.0.1"
+  version "0.0.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,14 +14,14 @@ cask "atlassian-cli" do
   on_macos do
     on_arm do
       url "https://github.com/ainoya/atlassian-cli/releases/download/v#{version}/atlassian-cli_#{version}_darwin_arm64.tar.gz"
-      sha256 "92451baa773f6e8daffe546e090d97b79e57b6f62944bc716b83ad23fe04ee2e"
+      sha256 "2765d1ea7d0a9a5138f4f5d0fc168a984c91399be88a3fc3f3ea83bd6ed87d8a"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/ainoya/atlassian-cli/releases/download/v#{version}/atlassian-cli_#{version}_linux_amd64.tar.gz"
-      sha256 "ca057f990bd48dcfe3d411e0e60fda61b1c3e748a139b5e9f0267c7f26647da5"
+      sha256 "e1ed52546409bd6bf51fa091e6a9439ce96b333273fbf09194b980e3cd7af30d"
     end
   end
 
