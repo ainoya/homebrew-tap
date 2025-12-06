@@ -3,7 +3,7 @@ cask "esa-cli" do
   name "esa-cli"
   desc "Esa CLI tool"
   homepage "https://github.com/ainoya/esa-cli"
-  version "0.0.1"
+  version "0.0.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,14 +14,14 @@ cask "esa-cli" do
   on_macos do
     on_arm do
       url "https://github.com/ainoya/esa-cli/releases/download/v#{version}/esa-cli_#{version}_darwin_arm64.tar.gz"
-      sha256 "c6d2df06904993993cdd419d5189d4bbb55da73c4f013de4f70b43198d9a3421"
+      sha256 "f7b921f112a19f5a350ace366fcaa6b6c3183c8517d48f46327567d4dee984cf"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/ainoya/esa-cli/releases/download/v#{version}/esa-cli_#{version}_linux_amd64.tar.gz"
-      sha256 "51bd674368a9e0adeefc3ca52f65a22d2614c20c44a849fb664e85d4c4a53f99"
+      sha256 "ed8063c992c604a4b011b33fc9ff2298a2080be51ee31a112a3c2ceda67c5f87"
     end
   end
 
