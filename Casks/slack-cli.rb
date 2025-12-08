@@ -3,7 +3,7 @@ cask "slack-cli" do
   name "slack-cli"
   desc "Slack CLI tool"
   homepage "https://github.com/ainoya/slack-cli"
-  version "0.0.12"
+  version "0.0.13"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,14 +14,14 @@ cask "slack-cli" do
   on_macos do
     on_arm do
       url "https://github.com/ainoya/slack-cli/releases/download/v#{version}/slack-cli_#{version}_darwin_arm64.tar.gz"
-      sha256 "fdda575eea8b024fe4b19252b6402ed37cb08a265e3ed8c863725425022e63ac"
+      sha256 "63aca1e3f25002c8c18573adf7a54fb43b63a4e5a6a9f5f2a1bc8a56079565fe"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/ainoya/slack-cli/releases/download/v#{version}/slack-cli_#{version}_linux_amd64.tar.gz"
-      sha256 "cd6d1cef11e26f724a0d563f945e8c916f663d08bf7d51dab03a7903efaa5932"
+      sha256 "8f5ab1e4d5d8873132a7ba10031128987b5f787b5d744309501632a59cbaba35"
     end
   end
 
